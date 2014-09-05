@@ -1,3 +1,5 @@
+package io.chronize.adsb.interfaces;
+
 import java.util.Arrays;
 
 public class Main {
@@ -14,7 +16,7 @@ public class Main {
 
 		System.out.println(rectangle.compareTo(circle));
 
-		// initialize Shape array
+		// initialize io.chronize.adsb.interfaces.Shape array
 
 		Shape[] myShapes = new Shape[] {
 			new Rectangle(8., 12.),
@@ -23,23 +25,23 @@ public class Main {
 			new Rectangle(10., 10.)
 		};
 
-		// print each Shape
+		// print each io.chronize.adsb.interfaces.Shape
 
 		for (Shape shape : myShapes) {
 			System.out.println(shape);
 		}
 
-		// sort Shape array
+		// sort io.chronize.adsb.interfaces.Shape array
 
 		Arrays.sort(myShapes);
 
-		// print each Shape again, sorted
+		// print each io.chronize.adsb.interfaces.Shape again, sorted
 
 		for (Shape shape : myShapes) {
 			System.out.println(shape);
 		}
 
-		// initialize Name array
+		// initialize io.chronize.adsb.interfaces.Name array
 
 		Name[] names = new Name[] {
 			new Name("Alex"),
@@ -48,7 +50,7 @@ public class Main {
 			new Name("Dean")
 		};
 
-		// print each Name
+		// print each io.chronize.adsb.interfaces.Name
 
 		for (Name name : names) {
 			System.out.println(name);
@@ -58,7 +60,7 @@ public class Main {
 
 		Arrays.sort(names);
 
-		// print each Name again, sorted
+		// print each io.chronize.adsb.interfaces.Name again, sorted
 
 		for (Name name : names) {
 			System.out.println(name);

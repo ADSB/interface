@@ -1,3 +1,5 @@
+package io.chronize.adsb.interfaces;
+
 public class Rectangle implements Shape, Comparable<Shape> {
 
 	private double _width;
@@ -74,7 +76,7 @@ public class Rectangle implements Shape, Comparable<Shape> {
 	/**
 	 * Calculates the relative comparison between two Shapes by comparing area.
 	 *
-	 * @param shape An instance of Shape to compare.
+	 * @param shape An instance of io.chronize.adsb.interfaces.Shape to compare.
 	 *
 	 * @return relative comparison
 	 */
@@ -90,6 +92,6 @@ public class Rectangle implements Shape, Comparable<Shape> {
 	 */
 	@Override
 	public String toString() {
-		return "[Type: Rectangle] [Area: " + getArea() + "] [Perimeter: " + getPerimeter() + "] [Width: " + _width + "] [Height: " + _height + "]";
+		return "[Type: io.chronize.adsb.interfaces.Rectangle] [Area: " + getArea() + "] [Perimeter: " + getPerimeter() + "] [Width: " + _width + "] [Height: " + _height + "]";
 	}
 }

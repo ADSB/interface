@@ -1,8 +1,10 @@
+package io.chronize.adsb.interfaces;
+
 public class Name implements Comparable<Name> {
 	private String _firstName;
 
 	/**
-	 * Constructs Name with empty default first name
+	 * Constructs io.chronize.adsb.interfaces.Name with empty default first name
 	 */
 	public Name() {
 		this("");
@@ -23,7 +25,7 @@ public class Name implements Comparable<Name> {
 	/**
 	 * Calculates the relative comparison between two Names by comparing their initial characters.
 	 *
-	 * @param name An instance of Name to compare.
+	 * @param name An instance of io.chronize.adsb.interfaces.Name to compare.
 	 *
 	 * @return relative comparison
 	 */

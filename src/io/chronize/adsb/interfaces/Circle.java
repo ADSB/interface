@@ -1,3 +1,5 @@
+package io.chronize.adsb.interfaces;
+
 public class Circle implements Shape, Comparable<Shape> {
 
 	private double _radius;
@@ -54,7 +56,7 @@ public class Circle implements Shape, Comparable<Shape> {
 	/**
 	 * Calculates the relative comparison between two Shapes by comparing area.
 	 *
-	 * @param shape An instance of Shape to compare.
+	 * @param shape An instance of io.chronize.adsb.interfaces.Shape to compare.
 	 *
 	 * @return relative comparison
 	 */
@@ -70,6 +72,6 @@ public class Circle implements Shape, Comparable<Shape> {
 	 */
 	@Override
 	public String toString() {
-		return "[Type: Circle] [Area: " + getArea() + "] [Perimeter: " + getPerimeter() + "] [Radius: " + _radius + "]";
+		return "[Type: io.chronize.adsb.interfaces.Circle] [Area: " + getArea() + "] [Perimeter: " + getPerimeter() + "] [Radius: " + _radius + "]";
 	}
 }
